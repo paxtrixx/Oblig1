@@ -1,3 +1,9 @@
+nav{
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -5,7 +11,89 @@ ul {
   overflow: hidden;
 }
 
+#Homebutton{
+  float: left;
+}
+
+#Userlogin{
+  float: right;
+}
+
 li a {
   display: block;
-  padding: 8px;
+  padding: 14px 16px;
+  color: #666;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: lightgray;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.firstForm {
+  margin-top: 5%;
+}
+
+main,
+article {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 80%;
+}
+
+.todoContainer{
+  display: flex;
+  max-width: 100%;
+  margin: 100px auto 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item{
+  margin-bottom: 5%;
+  flex: 0 27%;
+  margin-left: 0%;
+}
+
+.normal .item {
+  flex-grow: 1;
+}
+
+.todobutton{
+  float: right;
+}
+
+p{
+ font-weight: 900;
+ font-size: 16;
+}
+
+button{
+ border-radius: 25px;
+ font-size: 16;
+ size: 20px;
+ padding: 10px 20px;
+ background-color: #66CDAA;
+ border-color: #66CDAA;
+ color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .todoContainer{
+    width: 100%;
+    display: block;
+    }
+  .item{
+    margin-top: 2%;
+  }
 }
