@@ -1,16 +1,74 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Hiof</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="oblig1.css">
   </head>
   <body>
-  <nav>
-      <ul>
-        <li><a href="#"><h1>HIOF</h1></a></li>
-        <li><a href="#">User user</a></li>
-      </ul>
-  </nav>
+  <header>
+    <nav>
+        <ul>
+          <li><a href="#" id="Homebutton">HIOF</a></li>
+          <li><a href="#" id="Userlogin">User Login</a></li>
+        </ul>
+      </nav>
+  </header>
+  <main class="container">
+    <form class="firstForm" action="index.html" method="post">
+      <label for="formTitle">Title</label><br/>
+      <input type="text" id="formTitle" name="formTitle"><br/>
+      <label for="formContent">Content</label><br/>
+      <textarea name="formContent" rows="4" cols="80"></textarea><br/>
+      <button type="button" name="firstFormSubmit">Add</button>
+    </form>
+    <h1>My Todos</h1>
+    <section class="todoContainer">
+      <section class="item">
+          <p>Todotitle</p>
+          <article>
+            Need to do my home work before the deadline and before dinner......
+          </article>
+          <button type="button" name="button" class="todobutton">Complete</button>
+      </section>
+      <section class="item">
+          <p>Todotitle</p>
+          <article>
+            Need to do my home work before the deadline and before dinner......
+          </article>
+          <button type="button" name="button" class="todobutton">Complete</button>
+      </section>
+      <section class="item">
+          <p>Todotitle</p>
+          <article>
+            Need to do my home work before the deadline and before dinner......
+          </article>
+          <button type="button" name="button" class="todobutton">Complete</button>
+      </section>
+      <section class="item">
+          <p>Todotitle</p>
+          <article>
+            Need to do my home work before the deadline and before dinner......
+          </article>
+          <button type="button" name="button" class="todobutton">Complete</button>
+      </section>
+      <section class="item">
+          <p>Todotitle</p>
+          <article>
+            Need to do my home work before the deadline and before dinner......
+          </article>
+          <button type="button" name="button" class="todobutton">Complete</button>
+      </section>
+      <section class="item">
+          <p>Todotitle</p>
+          <article>
+            Need to do my home work before the deadline and before dinner......
+          </article>
+          <button type="button" name="button" class="todobutton">Complete</button>
+      </section>
+    </section>
+
+  </main>
   </body>
 </html>
